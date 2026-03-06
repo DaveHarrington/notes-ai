@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Slack__search_slack",
+      "mcp__Slack__read_channel",
+      "mcp__Slack__search_channels",
+      "mcp__Slack__slack_search_public",
+      "mcp__Slack__slack_search_channels",
+      "mcp__Slack__slack_read_thread",
+      "mcp__Slack__slack_read_channel",
+      "mcp__Slack__slack_read_canvas",
+      "mcp__jmp__search_issues",
+      "mcp__jmp__list_projects",
+      "mcp__jmp__get_issue",
+      "mcp__calendar__get_current_date",
+      "mcp__calendar__get_calendar_events",
+      "mcp__calendar__get_todays_events",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(rm -f /Users/daveharrington/dev/notes-ai/output/*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits"
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "calendar"
+  ],
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "filesystem": {
+      "allowWrite": [
+        "~/Notes/Updates",
+        "~/Notes/Updates/**"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Personal Configuration
+
+Copy this file to `CLAUDE.local.md` and customize for your preferences.
+
+## Pre-report Actions
+
+## Post-report Actions
+
+After generating reports in `./output/`, copy them to your notes directory:
+```
+cp output/*-daily-update.md /Users/yourusername/Notes/Updates/
+cp output/*-weekly-update.md /Users/yourusername/Notes/Updates/
+```

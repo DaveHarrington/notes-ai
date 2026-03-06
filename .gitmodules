@@ -1,0 +1,6 @@
+[submodule "obsidian-mcp"]
+	path = obsidian-mcp
+	url = https://github.com/StevenStavrakis/obsidian-mcp
+[submodule "obsidian-tasks-mcp"]
+	path = obsidian-tasks-mcp
+	url = https://github.com/jfim/obsidian-tasks-mcp.git

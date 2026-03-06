@@ -1,0 +1,15 @@
+# Channel lists - use /setup-channels command
+config/
+
+# Temporary outputs
+output/
+scripts/
+data/
+
+.env
+
+.DS_Store
+__pycache__/
+
+CLAUDE.local.md
+.claude/settings.local.json
